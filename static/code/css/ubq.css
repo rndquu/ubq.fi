@@ -530,38 +530,50 @@ p {
   height: 100%;
   width: 100%;
 }
-#Partners, #Integrations, #Audits {
+#Partners,
+#Integrations,
+#Audits {
   height: unset;
   padding: 10% 0;
 }
-#Partners > article > div:nth-child(1), #Integrations > article > div:nth-child(1), #Audits > article > div:nth-child(1) {
+#Partners > article > div:nth-child(1),
+#Integrations > article > div:nth-child(1),
+#Audits > article > div:nth-child(1) {
   max-width: 1280px;
   margin: 24px auto;
   width: 75%;
 }
-#Partners ul, #Integrations ul {
+#Partners ul,
+#Integrations ul {
   padding: 0;
   max-width: 1000px;
 }
-#Partners ul li, #Integrations ul li {
+#Partners ul li,
+#Integrations ul li {
   display: inline-block;
   margin: 24px;
   opacity: 0.75;
 }
-#Partners ul li:hover, #Integrations ul li:hover {
+#Partners ul li:hover,
+#Integrations ul li:hover {
   opacity: 1;
 }
-#Partners ul li img,#Integrations ul li img,
-#Partners ul li svg,#Integrations ul li svg {
+#Partners ul li img,
+#Integrations ul li img,
+#Partners ul li svg,
+#Integrations ul li svg {
   height: 96px;
   width: 192px;
   max-width: 25vw;
 }
-#Partners ul li p, #Integrations ul li p {
+#Partners ul li p,
+#Integrations ul li p {
   text-align: center;
   line-height: 1;
 }
-#Partners .header-aside, #Integrations .header-aside, #Audits .header-aside {
+#Partners .header-aside,
+#Integrations .header-aside,
+#Audits .header-aside {
   margin-left: 0;
 }
 #Audits a {
@@ -867,8 +879,10 @@ body.social main#Spreads {
   box-sizing: inherit;
   padding: 0 24px;
 }
-#Partners > article > div > img, #Integrations > article > div > img,
-#Partners > article > div > svg, #Integrations > article > div > svg {
+#Partners > article > div > img,
+#Integrations > article > div > img,
+#Partners > article > div > svg,
+#Integrations > article > div > svg {
   width: 100vw;
 }
 #Spreads > footer > article div p {
