@@ -76,7 +76,8 @@
   ul {
     padding: 0;
   }
-  #Partners ul li {
+  #Partners ul li,
+  #Integrations ul li {
     margin: 12px;
   }
 }
